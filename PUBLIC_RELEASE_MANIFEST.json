@@ -1,0 +1,44 @@
+{
+  "product": "Quick Ring",
+  "version": "0.1.0",
+  "date": "2026-05-09",
+  "mode": "release-only",
+  "public_history": "fresh",
+  "source_public": false,
+  "google_oauth_client_bundled": false,
+  "code_signed": false,
+  "artifacts": [
+    {
+      "name": "QuickRingSetup-0.1.0.exe",
+      "type": "windows-x64-user-installer",
+      "size_bytes": 266766294,
+      "sha256": "fcf2f982d32cf4394ae8c16dda58747982c2fb07986b80bf539bf8c0177daf6c"
+    }
+  ],
+  "checks": [
+    {
+      "name": "private-history-excluded",
+      "status": "pass"
+    },
+    {
+      "name": "local-path-scan",
+      "status": "pass"
+    },
+    {
+      "name": "credential-value-scan",
+      "status": "pass"
+    },
+    {
+      "name": "debug-symbols-excluded",
+      "status": "pass"
+    },
+    {
+      "name": "fixture-smoke",
+      "status": "pass"
+    },
+    {
+      "name": "installer-no-start-smoke",
+      "status": "pass"
+    }
+  ]
+}

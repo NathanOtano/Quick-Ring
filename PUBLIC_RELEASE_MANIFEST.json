@@ -1,18 +1,18 @@
 {
   "product": "Quick Ring",
-  "version": "0.1.0",
-  "date": "2026-05-09",
+  "version": "0.1.4",
+  "date": "2026-05-20",
   "mode": "release-only",
-  "public_history": "fresh",
+  "public_history": "public_release_channel_only",
   "source_public": false,
   "google_oauth_client_bundled": false,
   "code_signed": false,
   "artifacts": [
     {
-      "name": "QuickRingSetup-0.1.0.exe",
+      "name": "QuickRingSetup-0.1.4.exe",
       "type": "windows-x64-user-installer",
-      "size_bytes": 266766294,
-      "sha256": "fcf2f982d32cf4394ae8c16dda58747982c2fb07986b80bf539bf8c0177daf6c"
+      "size_bytes": 266590166,
+      "sha256": "d9d1b787b225c0ac41149a8ad8718c3b2766c39a8936564a22ce22e2a257aae7"
     }
   ],
   "checks": [
@@ -21,23 +21,26 @@
       "status": "pass"
     },
     {
-      "name": "local-path-scan",
+      "name": "public-tree-safety-scan",
       "status": "pass"
     },
     {
-      "name": "credential-value-scan",
-      "status": "pass"
+      "name": "automated-tests",
+      "status": "pass",
+      "evidence": "32 tests"
     },
     {
-      "name": "debug-symbols-excluded",
-      "status": "pass"
+      "name": "installed-runtime-check",
+      "status": "pass",
+      "evidence": "single QuickRing.App process, second launch exits"
     },
     {
-      "name": "fixture-smoke",
-      "status": "pass"
+      "name": "oauth-scope-check",
+      "status": "pass",
+      "evidence": "Calendar scopes only, no bundled credentials"
     },
     {
-      "name": "installer-no-start-smoke",
+      "name": "asset-hash",
       "status": "pass"
     }
   ]

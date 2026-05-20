@@ -1,0 +1,22 @@
+{
+  "product": "Quick Ring",
+  "version": "0.1.4",
+  "date": "2026-05-20",
+  "status": "pass",
+  "scanned_surfaces": [
+    "public release repository",
+    "QuickRingSetup-0.1.4.exe"
+  ],
+  "failures": 0,
+  "warnings": 165,
+  "warning_classes": [
+    "debug-symbol-reference",
+    "sensitive-keyword-review"
+  ],
+  "warning_disposition": "reviewed as generic binary/runtime strings; no personal data, credentials, OAuth client, private repository history, or local configuration is published",
+  "asset": {
+    "name": "QuickRingSetup-0.1.4.exe",
+    "size_bytes": 266590166,
+    "sha256": "d9d1b787b225c0ac41149a8ad8718c3b2766c39a8936564a22ce22e2a257aae7"
+  }
+}

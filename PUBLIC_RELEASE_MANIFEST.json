@@ -1,7 +1,7 @@
 {
   "product": "Quick Ring",
-  "version": "0.1.4",
-  "date": "2026-05-20",
+  "version": "0.1.5",
+  "date": "2026-06-17",
   "mode": "release-only",
   "public_history": "public_release_channel_only",
   "source_public": false,
@@ -9,10 +9,10 @@
   "code_signed": false,
   "artifacts": [
     {
-      "name": "QuickRingSetup-0.1.4.exe",
+      "name": "QuickRingSetup-0.1.5.exe",
       "type": "windows-x64-user-installer",
-      "size_bytes": 266590166,
-      "sha256": "d9d1b787b225c0ac41149a8ad8718c3b2766c39a8936564a22ce22e2a257aae7"
+      "size_bytes": 266614742,
+      "sha256": "e6b9a201eaa035ab54a0c8e99226b36003f58466ed9b306cb82746313f1230b7"
     }
   ],
   "checks": [
@@ -27,12 +27,12 @@
     {
       "name": "automated-tests",
       "status": "pass",
-      "evidence": "32 tests"
+      "evidence": "40 tests"
     },
     {
       "name": "installed-runtime-check",
       "status": "pass",
-      "evidence": "single QuickRing.App process, second launch exits"
+      "evidence": "installed runtime replaced and relaunched; installed app hash matches the 0.1.5 build"
     },
     {
       "name": "oauth-scope-check",

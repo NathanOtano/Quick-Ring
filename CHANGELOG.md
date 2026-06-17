@@ -1,5 +1,11 @@
 # Journal des versions
 
+## 0.1.5 - 2026-06-17
+
+- L’overlay temporairement masqué réapparaît à chaque montée de niveau d’alerte : moins de 30 minutes, moins de 10 minutes, puis cinq minutes ou moins.
+- L’overlay reste hors Alt-Tab quand il est masqué ou affiché, tout en conservant l’icône de zone système.
+- Mise à jour de stabilité mineure pour le masquage par ligne quand plusieurs meetings proches sont affichés.
+
 ## 0.1.4 - 2026-05-20
 
 - Durcissement OAuth : conservation du jeton de renouvellement Calendar et rejet des jetons contenant des droits hors Calendar.

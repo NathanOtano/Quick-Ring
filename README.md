@@ -8,7 +8,7 @@ Ce dépôt public fonctionne en mode release-only : il publie les installateurs,
 
 ## Télécharger
 
-La version publique actuelle est `0.1.4`. Les fichiers installables sont disponibles dans les GitHub Releases du dépôt.
+La version publique actuelle est `0.1.5`. Les fichiers installables sont disponibles dans les GitHub Releases du dépôt.
 
 ## Premier lancement
 
